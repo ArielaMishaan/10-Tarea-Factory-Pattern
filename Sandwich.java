@@ -8,8 +8,8 @@ public class Sandwich extends Plato {
         combo = false;
     }
 
-    public Sandwich(String nombre, float precio, String pan, boolean combo){
-        super(nombre, precio);
+    public Sandwich(String nombre, float d, String pan, boolean combo){
+        super(nombre, d);
         this.pan = pan;
         this.combo = combo;
     }

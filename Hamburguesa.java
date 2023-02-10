@@ -10,8 +10,8 @@ public class Hamburguesa extends Plato{
         combo = true;
     }
 
-    public Hamburguesa(String nombre, float precio, boolean queso, boolean dobleCarne, boolean combo) {
-        super(nombre, precio);
+    public Hamburguesa(String nombre, float d, boolean queso, boolean dobleCarne, boolean combo) {
+        super(nombre, d);
         this.queso = queso;
         this.dobleCarne = dobleCarne;
         this.combo = combo;

@@ -8,8 +8,8 @@ public class ArrozFrito extends Plato {
         verduras = false;
     }
 
-    public ArrozFrito(String nombre, float precio, boolean mixto, boolean verduras){
-        super(nombre, precio);
+    public ArrozFrito(String nombre, float d, boolean mixto, boolean verduras){
+        super(nombre, d);
         this.mixto = mixto;
         this.verduras = verduras;
     }
