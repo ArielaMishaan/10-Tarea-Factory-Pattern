@@ -3,7 +3,7 @@ public class Pastel extends Plato{
     private String sabor;
     private boolean gluten;
 
-    public Pastel() {
+    public Pastel(){
         super();
         sabor = "";
         gluten = false;
