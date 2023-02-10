@@ -11,7 +11,7 @@ public class Fideos extends Plato{
     }
 
     public Fideos(String nombre, float precio, boolean salsa, boolean gluten, boolean queso) {
-        super(nombre, precio, salsa, gluten, queso);
+        super(nombre, precio);
         this.salsa = salsa;
         this.gluten = gluten;
         this.queso = queso;
