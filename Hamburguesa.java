@@ -1,31 +1,31 @@
 public class Hamburguesa extends Plato{
-    private boolean queso;
+    private String queso;
     private boolean dobleCarne;
     private boolean combo;
 
     public Hamburguesa() {
         super();
-        queso = true;
+        queso = "";
         dobleCarne = true;
         combo = true;
     }
 
-    public Hamburguesa(String nombre, float precio, boolean queso, boolean dobleCarne, boolean combo) {
+    public Hamburguesa(String nombre, float precio, String queso, boolean dobleCarne, boolean combo) {
         super(nombre, precio);
         this.queso = queso;
         this.dobleCarne = dobleCarne;
         this.combo = combo;
     }
 
-    public boolean isQueso() {
+    public String isQueso() {
         return this.queso;
     }
 
-    public boolean getQueso() {
+    public String getQueso() {
         return this.queso;
     }
 
-    public void setQueso(boolean queso) {
+    public void setQueso(String queso) {
         this.queso = queso;
     }
 
