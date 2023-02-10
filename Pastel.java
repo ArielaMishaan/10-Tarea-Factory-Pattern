@@ -39,5 +39,5 @@ public class Pastel extends Plato{
             "Sabor: " + getSabor() + "\n" +
             "Gluten: " + getGluten() + "\n";
     }
-
-} 
+}
+ 

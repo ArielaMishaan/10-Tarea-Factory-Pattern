@@ -8,8 +8,8 @@ public class Principal{
         Scanner teclado = new Scanner(System.in);
 
         try{
-            System.out.println("Bienvenidos al Restaurante"); 
-            System.out.println("Aquí está el menú: ");
+            System.out.println("\n\n °°°°°°°°°°°°°°°°°° Bienvenidos al Restaurante °°°°°°°°°°°°°°°°°°"); 
+            System.out.println("\nAquí está el menú: \n");
 
             System.out.println(menu.imprimirMenu());
 
@@ -18,27 +18,27 @@ public class Principal{
 
             switch (plato) {
                 case 1:
-                    cocinero.getInstance(1).toString();
+                    System.out.println("\nDisfrute su " + cocinero.getInstance(1).getNombre()+"!\n");
                     break;
 
                 case 2:
-                    cocinero.getInstance(2).toString();
+                    System.out.println("\n¡Disfrute su " + cocinero.getInstance(2).getNombre() +"!\n");
                     break;
 
                 case 3:
-                    cocinero.getInstance(3).toString();
+                    System.out.println("\n¡Disfrute su " + cocinero.getInstance(3).getNombre()+"!\n");
                     break;
 
                 case 4:
-                    cocinero.getInstance(4).toString();
+                    System.out.println("\n¡Disfrute su " + cocinero.getInstance(4).getNombre()+"!\n");
                     break;
 
                 case 5:
-                    cocinero.getInstance(5).toString();
+                    System.out.println("\n¡Disfrute su " + cocinero.getInstance(5).getNombre()+"!\n");
                     break;
 
                 case 6:
-                    cocinero.getInstance(6).toString();
+                    System.out.println("\n¡Disfrute su " + cocinero.getInstance(6).getNombre()+"!\n");
                     break;
             
                 default:

@@ -1,5 +1,5 @@
 public class Plato{
-    
+
     protected String nombre;
     protected float precio;
 
@@ -41,8 +41,7 @@ public class Plato{
 
     @Override
     public String toString() {
-        return "Nombre: " + getNombre() + "\n" +
-            "Precio: " + getPrecio() + "\n";
+        return "Nombre: " + getNombre() + "\n" + "Precio: " + getPrecio() + "\n";
     }
-    
 }
+    
