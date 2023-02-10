@@ -1,4 +1,5 @@
 public class Pastel extends Plato{
+
     private String sabor;
     private boolean gluten;
 
@@ -27,7 +28,7 @@ public class Pastel extends Plato{
         return this.gluten;
     }
 
-    public void setGluten(String gluten) {
+    public void setGluten(boolean gluten) {
         this.gluten = gluten;
     }
 

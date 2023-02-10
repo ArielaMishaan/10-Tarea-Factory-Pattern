@@ -1,4 +1,5 @@
 public class Pizza extends Plato{
+
     private String topping;
     private boolean orillaQueso;
     private boolean delgada;
@@ -11,7 +12,7 @@ public class Pizza extends Plato{
     }
 
     public Pizza(String nombre, float precio, String topping, boolean orillaQueso, boolean delgada) {
-        super(nombre, precio, topping, orillaQueso, delgada);
+        super(nombre, precio);
         this.topping = topping;
         this.orillaQueso = orillaQueso;
         this.delgada = delgada;

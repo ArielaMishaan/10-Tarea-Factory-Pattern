@@ -1,4 +1,5 @@
 public class Plato{
+    
     protected String nombre;
     protected float precio;
 
