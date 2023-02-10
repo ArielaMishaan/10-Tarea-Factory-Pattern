@@ -42,9 +42,8 @@ public class ArrozFrito extends Plato {
     @Override
     public String toString() {
         return super.toString() +
-            " mixto='" + isMixto() + "'" +
-            ", verduras='" + isVerduras() + "'" +
-            "}";
+            "Mixto: " + isMixto() + "\n" +
+            "Verduras: " + isVerduras() + "\n";
     }
 
 

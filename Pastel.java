@@ -36,9 +36,8 @@ public class Pastel extends Plato{
     @Override
     public String toString() {
         return super.toString() +
-            " sabor='" + getSabor() + "'" +
-            ", gluten='" + getGluten() + "'" +
-            "}";
+            "Sabor: " + getSabor() + "\n" +
+            "Gluten: " + getGluten() + "\n";
     }
 
 } 

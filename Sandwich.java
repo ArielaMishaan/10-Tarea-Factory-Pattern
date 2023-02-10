@@ -39,9 +39,8 @@ public class Sandwich extends Plato {
     @Override
     public String toString() {
         return super.toString() +
-            " pan='" + getPan() + "'" +
-            ", combo='" + isCombo() + "'" +
-            "}";
+            "Pan: " + getPan() + "\n" +
+            "Combo: " + isCombo() + "\n";
     }
 
 
