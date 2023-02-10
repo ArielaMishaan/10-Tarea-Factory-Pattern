@@ -1,3 +1,10 @@
+/*
+ * Alina Carías (22539), Ignacio Méndez (22613), Ariela Mishaan (22052), Diego Soto (22737)
+ * Algoritmos y Estructuras de Datos Sección 40
+ * Ejercicio Factory
+ * 30-01-2023
+ * Clase Sandwich: crea un plato para el menu, clase hija (herencia)
+ */
 public class Sandwich extends Plato {
     private String pan;
     private boolean combo;
@@ -15,6 +22,10 @@ public class Sandwich extends Plato {
     }
 
 
+    
+    /** 
+     * @return String
+     */
     public String getPan() {
         return this.pan;
     }

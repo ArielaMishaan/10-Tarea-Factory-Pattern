@@ -1,3 +1,10 @@
+/*
+ * Alina Carías (22539), Ignacio Méndez (22613), Ariela Mishaan (22052), Diego Soto (22737)
+ * Algoritmos y Estructuras de Datos Sección 40
+ * Ejercicio Factory
+ * 30-01-2023
+ * Clase Pastel: crea un plato para el menu, clase hija (herencia)
+ */
 public class Pastel extends Plato{
 
     private String sabor;
@@ -16,6 +23,10 @@ public class Pastel extends Plato{
     }
 
 
+    
+    /** 
+     * @return String
+     */
     public String getSabor() {
         return this.sabor;
     }

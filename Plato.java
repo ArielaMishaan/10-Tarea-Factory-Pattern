@@ -1,3 +1,10 @@
+/*
+ * Alina Carías (22539), Ignacio Méndez (22613), Ariela Mishaan (22052), Diego Soto (22737)
+ * Algoritmos y Estructuras de Datos Sección 40
+ * Ejercicio Factory
+ * 30-01-2023
+ * Clase Plato: Crea todo los patos, clase madre
+ */
 public class Plato{
 
     protected String nombre;
@@ -13,6 +20,10 @@ public class Plato{
         this.precio = precio;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getNombre() {
         return this.nombre;
     }

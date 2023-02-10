@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 public class Principal{
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         Cocinero cocinero = new Cocinero();
         Menu menu = new Menu();

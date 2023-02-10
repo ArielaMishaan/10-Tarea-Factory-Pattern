@@ -1,3 +1,10 @@
+/*
+ * Alina Carías (22539), Ignacio Méndez (22613), Ariela Mishaan (22052), Diego Soto (22737)
+ * Algoritmos y Estructuras de Datos Sección 40
+ * Ejercicio Factory
+ * 30-01-2023
+ * Clase Hamburguesa: crea un plato para el menu, clase hija (herencia)
+ */
 public class Hamburguesa extends Plato{
     private boolean queso;
     private boolean dobleCarne;
@@ -17,6 +24,10 @@ public class Hamburguesa extends Plato{
         this.combo = combo;
     }
 
+    
+    /** 
+     * @return boolean
+     */
     public boolean isQueso() {
         return this.queso;
     }

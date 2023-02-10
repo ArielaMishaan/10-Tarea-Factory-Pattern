@@ -1,3 +1,10 @@
+/*
+ * Alina Carías (22539), Ignacio Méndez (22613), Ariela Mishaan (22052), Diego Soto (22737)
+ * Algoritmos y Estructuras de Datos Sección 40
+ * Ejercicio Factory
+ * 30-01-2023
+ * Clase Fideo: crea un plato para el menu, clase hija (herencia)
+ */
 public class Fideos extends Plato{
     private boolean salsa;
     private boolean gluten;
@@ -17,6 +24,10 @@ public class Fideos extends Plato{
         this.queso = queso;
     }
 
+    
+    /** 
+     * @return boolean
+     */
     public boolean isSalsa() {
         return this.salsa;
     }

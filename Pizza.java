@@ -1,3 +1,10 @@
+/*
+ * Alina Carías (22539), Ignacio Méndez (22613), Ariela Mishaan (22052), Diego Soto (22737)
+ * Algoritmos y Estructuras de Datos Sección 40
+ * Ejercicio Factory
+ * 30-01-2023
+ * Clase Pizza: crea un plato para el menu, clase hija (herencia)
+ */
 public class Pizza extends Plato{
 
     private String topping;
@@ -18,6 +25,10 @@ public class Pizza extends Plato{
         this.delgada = delgada;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getTopping() {
         return this.topping;
     }
